@@ -1,0 +1,35 @@
+.bubble{
+  background: #fff;
+  display: inline-block;
+  padding: 9px 20px;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 30%;
+}
+.chats{
+  background: #ffff;
+  padding: 9px 20px;
+  border-radius: 50px;
+  display: block;
+  width: fit-content;
+  transition: .3s linear all;
+  margin: 10px;
+}
+.container{
+  margin-top: 5%;
+}
+.formContainer{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.formContainer input{
+  width: 50%;
+  padding: 20px 30px;
+}
+.formContainer button{
+  display: none;
+}
+
